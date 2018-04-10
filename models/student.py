@@ -23,7 +23,7 @@ class student(models.Model):
     age = fields.Integer(compute='_compute_age', default=0)
     classe_id = fields.Many2one('iut.dip.classe', string="Classe")
 
-    @api.depends('birthdate')
+    @api.depends('date_anniv')
     def _compute_age(self):
     	for record in self:
     		now = datetime.date.today()

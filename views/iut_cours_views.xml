@@ -1,0 +1,46 @@
+<odoo>
+  <data>
+  	<!-- Vue form -->
+    <record model="ir.ui.view" id="iut.dip.course_form_view">
+        <field name="name">iut.dip.course.form</field>
+        <field name="model">iut.dip.course</field>
+        <field name="arch" type="xml">
+            <form string="Cours">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <span class="oe_inline">Cours</span>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vue tree -->
+    <record model="ir.ui.view" id="iut.dip.course_tree_view">
+      <field name="name">iut.dip.course.tree</field>
+      <field name="model">iut.dip.course</field>
+      <field name="arch" type="xml">
+        <tree string="Cours">
+            <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record id="iut.dip.course_action" model="ir.actions.act_window">
+    	<field name="name">Cours</field>
+    	<field name="type">ir.actions.act_window</field>
+    	<field name="res_model">iut.dip.course</field>
+    	<field name="view_type">form</field>
+    	<field name="view_mode">tree,form</field>
+    </record>
+
+  </data>
+</odoo>

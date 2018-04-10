@@ -1,0 +1,54 @@
+<odoo>
+  <data>
+  	<!-- Vue form -->
+    <record model="ir.ui.view" id="iut.dip.agenda_form_view">
+        <field name="name">iut.dip.agenda.form</field>
+        <field name="model">iut.dip.agenda</field>
+        <field name="arch" type="xml">
+            <form string="Agenda">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <span class="oe_inline">Agenda</span>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="date_start" />
+                            <field name="date_stop" />
+                            <field name="room" />
+                            <field name="class_id" />
+                            <field name="course_id" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vue tree -->
+    <record model="ir.ui.view" id="iut.dip.agenda_tree_view">
+      <field name="name">iut.dip.agenda.tree</field>
+      <field name="model">iut.dip.agenda</field>
+      <field name="arch" type="xml">
+        <tree string="Agenda" default_order="date_start asc">
+            <field name="date_start" />
+            <field name="date_stop" />
+            <field name="room" />
+            <field name="class_id" />
+            <field name="course_id" />
+        </tree>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record id="iut.dip.agenda_action" model="ir.actions.act_window">
+    	<field name="name">Agenda</field>
+    	<field name="type">ir.actions.act_window</field>
+    	<field name="res_model">iut.dip.agenda</field>
+    	<field name="view_type">form</field>
+    	<field name="view_mode">tree,form</field>
+    </record>
+
+  </data>
+</odoo>
