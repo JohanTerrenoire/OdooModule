@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="iut_it_classe_model_tree_view">
+      <field name="name">Classe Name</field>
+      <field name="model">iut.it.classe</field>
+      <field name="arch" type="xml">
+        <tree string="Classe">
+            <field name="name"/>
+            <field name="teacher_id"/>
+            <field name="student_ids"/>
+          <field name="student_nb"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="iut_it_classe_action_window">
+      <field name="name">Lycée</field>
+      <field name="res_model">iut.it.classe</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+  </data>
+</odoo>
+<!-- <tree colors="blue:state == 'draft';black:state in ('proforma','proforma2','open');gray:state ==
+  'cancel';orange:date_due &lt; current_date;" string="Invoice" default_order="date_invoice"> -->

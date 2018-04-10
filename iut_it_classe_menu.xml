@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data>
+    <menuitem name="Lycée" id="menu_classe_root" groups="group_model_member" sequence="80"/>
+      <menuitem id="menu_classe_config" parent="menu_classe_root"
+          name="Configuration" sequence="16"/>
+
+          <menuitem id="menu_classe_config_list" parent="menu_classe_config"
+              action="iut_it_classe_action_window" sequence="10" name="Lycée"/>
+
+  </data>
+</openerp>

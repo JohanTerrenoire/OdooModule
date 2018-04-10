@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "tdsimodel",
+    'name': "classe",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Module de test pour Odoo""",
 
     'description': """
-        Long description of module's purpose
+        Ceci est une description pour notre module personnalisé Odoo 11
     """,
 
-    'author': "teamDSI",
-    'website': "http://www.team-dsi.fr",
+    'author': "JohanTerrenoire",
+    'website': "https://github.com/JohanTerrenoire/",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/helico/module/module_data.xml
@@ -24,6 +23,9 @@
 
     # always loaded
     'data': [
+        'views/iut_classe_views.xml',
+        'iut_it_classe_menu.xml',
+        'views/iut_model_type_views.xml',
         'security/tdsimodel_security.xml',
         'datas/datas.xml',
         'views/views.xml',
