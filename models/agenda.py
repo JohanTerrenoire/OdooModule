@@ -20,4 +20,4 @@ class agenda(models.Model):
     date_stop = fields.Datetime()
     room = fields.Char()
     classe_id = fields.Many2one('iut.dip.classe', string="Classe")
-    course_id = fields.Many2one('iut.dip.course', string="Cours")
+    cours_id = fields.Many2one('iut.dip.cours', string="Cours")

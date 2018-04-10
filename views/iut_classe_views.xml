@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <data>
-    <record model="ir.ui.view" id="iut_dip_classe_model_tree_view">
+    <record model="ir.ui.view" id="iut.dip.classe_model_tree_view">
       <field name="name">Classe Name</field>
       <field name="model">iut.dip.classe</field>
       <field name="arch" type="xml">
@@ -14,7 +14,7 @@
       </field>
     </record>
 
-    <record model="ir.actions.act_window" id="iut_dip_classe_action_window">
+    <record model="ir.actions.act_window" id="iut.dip.classe_action_window">
       <field name="name">Lycée</field>
       <field name="res_model">iut.dip.classe</field>
       <field name="view_type">form</field>

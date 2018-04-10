@@ -35,14 +35,14 @@
             <field name="date_start" />
             <field name="date_stop" />
             <field name="room" />
-            <field name="class_id" />
-            <field name="course_id" />
+            <field name="classe_id" />
+            <field name="cours_id" />
         </tree>
       </field>
     </record>
 
     <!-- actions opening views on models -->
-    <record id="iut.dip.agenda_action" model="ir.actions.act_window">
+    <record id="iut_dip_agenda_action" model="ir.actions.act_window">
     	<field name="name">Agenda</field>
     	<field name="type">ir.actions.act_window</field>
     	<field name="res_model">iut.dip.agenda</field>
