@@ -1,0 +1,61 @@
+﻿Numéro de série;Date d'allocation;Date d'achat;Modèle;Marque;Type;Employé
+AAZZ000001;19/06/2010;12/06/2014;Galaxy;samsung;Smartphone;Didier
+AAZZ000002;05/04/2001;13/06/2014;Galaxy;samsung;PC Portable;Roger
+AAZZ000003;04/06/2013;14/06/2014;Galaxy;samsung;Ordinateur;Raphaël
+AAZZ000004;30/12/2012;15/06/2014;iphone;apple;Téléviseur;Jean
+AAZZ000005;19/06/2010;16/06/2014;prodesk;fujitsu;PC Portable;Eric
+AAZZ000006;05/04/2001;17/06/2014;prodesk;fujitsu;Ordinateur;Didier
+AAZZ000007;04/06/2013;18/06/2014;prodesk;hp;Téléviseur;Roger
+AAZZ000008;30/12/2012;19/06/2014;Galaxy;samsung;Smartphone;Raphaël
+AAZZ000009;19/06/2010;20/06/2014;Galaxy;samsung;PC Portable;Jean
+AAZZ000010;05/04/2001;21/06/2014;Galaxy;samsung;Ordinateur;Eric
+AAZZ000011;04/06/2013;22/06/2014;iphone;apple;Téléviseur;Didier
+AAZZ000012;30/12/2012;23/06/2014;prodesk;fujitsu;PC Portable;Roger
+AAZZ000013;19/06/2010;24/06/2014;prodesk;fujitsu;Ordinateur;Raphaël
+AAZZ000014;05/04/2001;25/06/2014;prodesk;hp;Smartphone;Jean
+AAZZ000015;04/06/2013;26/06/2014;prodesk;lenovo;PC Portable;Eric
+AAZZ000016;30/12/2012;27/06/2014;prodesk;hp;Ordinateur;Didier
+AAZZ000017;19/06/2010;28/06/2014;prodesk;wiko;Téléviseur;Roger
+AAZZ000018;05/04/2001;29/06/2014;Galaxy;samsung;PC Portable;Raphaël
+AAZZ000019;04/06/2013;12/06/2014;Galaxy;samsung;Ordinateur;Jean
+AAZZ000020;30/12/2012;13/06/2014;Galaxy;samsung;Téléviseur;Eric
+AAZZ000021;19/06/2010;14/06/2014;Galaxy;samsung;Smartphone;Didier
+AAZZ000022;05/04/2001;15/06/2014;iphone;apple;PC Portable;Roger
+AAZZ000023;04/06/2013;16/06/2014;prodesk;fujitsu;Ordinateur;Raphaël
+AAZZ000024;30/12/2012;17/06/2014;prodesk;fujitsu;Téléviseur;Jean
+AAZZ000025;19/06/2010;18/06/2014;prodesk;hp;PC Portable;Eric
+AAZZ000026;05/04/2001;19/06/2014;prodesk;lenovo;Ordinateur;Didier
+AAZZ000027;04/06/2013;20/06/2014;prodesk;hp;Smartphone;Roger
+AAZZ000028;30/12/2012;21/06/2014;iphone;apple;PC Portable;Raphaël
+AAZZ000029;19/06/2010;22/06/2014;prodesk;fujitsu;Ordinateur;Jean
+AAZZ000030;05/04/2001;23/06/2014;prodesk;fujitsu;Téléviseur;Eric
+AAZZ000031;04/06/2013;24/06/2014;prodesk;hp;PC Portable;Didier
+AAZZ000032;30/12/2012;25/06/2014;prodesk;lenovo;Ordinateur;Roger
+AAZZ000033;19/06/2010;26/06/2014;prodesk;hp;Téléviseur;Raphaël
+AAZZ000034;05/04/2001;27/06/2014;prodesk;fujitsu;Smartphone;Jean
+AAZZ000035;04/06/2013;28/06/2014;prodesk;fujitsu;PC Portable;Eric
+AAZZ000036;30/12/2012;29/06/2014;prodesk;hp;Ordinateur;Didier
+AAZZ000037;19/06/2010;30/06/2014;prodesk;lenovo;Téléviseur;Roger
+AAZZ000038;05/04/2001;01/07/2014;prodesk;hp;PC Portable;Raphaël
+AAZZ000039;04/06/2013;02/07/2014;prodesk;wiko;Ordinateur;Jean
+AAZZ000040;30/12/2012;03/07/2014;iphone;apple;Smartphone;Eric
+AAZZ000041;19/06/2010;04/07/2014;prodesk;fujitsu;PC Portable;Didier
+AAZZ000042;05/04/2001;05/07/2014;prodesk;fujitsu;Ordinateur;Roger
+AAZZ000043;04/06/2013;06/07/2014;prodesk;hp;Téléviseur;Raphaël
+AAZZ000044;30/12/2012;07/07/2014;prodesk;lenovo;PC Portable;Jean
+AAZZ000045;19/06/2010;08/07/2014;prodesk;hp;Ordinateur;Eric
+AAZZ000046;05/04/2001;09/07/2014;prodesk;wiko;Téléviseur;Didier
+AAZZ000047;04/06/2013;10/07/2014;Galaxy;samsung;Smartphone;Roger
+AAZZ000048;30/12/2012;11/07/2014;Galaxy;samsung;PC Portable;Raphaël
+AAZZ000049;19/06/2010;12/07/2014;Galaxy;samsung;Ordinateur;Jean
+AAZZ000050;05/04/2001;13/07/2014;Galaxy;samsung;Téléviseur;Eric
+AAZZ000051;04/06/2013;14/07/2014;iphone;apple;PC Portable;Didier
+AAZZ000052;30/12/2012;15/07/2014;prodesk;fujitsu;Téléviseur;Roger
+AAZZ000053;19/06/2010;16/07/2014;prodesk;fujitsu;Smartphone;Raphaël
+AAZZ000054;05/04/2001;17/07/2014;prodesk;hp;PC Portable;Jean
+AAZZ000055;04/06/2013;18/07/2014;prodesk;lenovo;Ordinateur;Eric
+AAZZ000056;30/12/2012;19/07/2014;prodesk;hp;Téléviseur;Didier
+AAZZ000057;19/06/2010;20/07/2014;iphone;apple;PC Portable;Roger
+AAZZ000058;05/04/2001;21/07/2014;prodesk;fujitsu;Téléviseur;Raphaël
+AAZZ000059;04/06/2013;22/07/2014;prodesk;fujitsu;Smartphone;Jean
+AAZZ000060;30/12/2012;23/07/2014;prodesk;hp;PC Portable;Eric
